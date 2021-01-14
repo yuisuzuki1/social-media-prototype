@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "886622088198",
+    "project_id": "photogram-89dd5",
+    "storage_bucket": "photogram-89dd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886622088198:android:c0daa59c434b3c2837a787",
+        "android_client_info": {
+          "package_name": "edu.uw.ysuzuki1.photogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886622088198-sh47oi2ss5f6qos005mclvgu9hjhvctd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TETPzD2KJAAYwG2ku984B3WIMq0BSPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886622088198-sh47oi2ss5f6qos005mclvgu9hjhvctd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

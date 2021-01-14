@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/GalleryFragment">
+
+    <fragment
+        android:id="@+id/GalleryFragment"
+        android:name="edu.uw.ysuzuki1.photogram.GalleryFragment"
+        tools:layout="@layout/fragment_gallery"
+        android:label="Gallery">
+
+        <action
+            android:id="@+id/to_upload_fragment"
+            app:destination="@id/UploadFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/UploadFragment"
+        android:name="edu.uw.ysuzuki1.photogram.UploadFragment"
+        tools:layout="@layout/fragment_upload"
+        android:label="Upload Screen">
+
+        <action
+            android:id="@+id/to_gallery_fragment"
+            app:destination="@id/GalleryFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_settings"
+        android:name="edu.uw.ysuzuki1.photogram.SettingsFragment"
+        tools:layout="@layout/fragment_settings"
+        android:label="Settings"/>
+
+</navigation>
